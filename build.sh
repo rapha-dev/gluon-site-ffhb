@@ -2,7 +2,9 @@
 
 # environmental and build settings
 KEYFILE="${KEYFILE:-"$HOME/.ecdsakey"}"
+GLUON_TARGETS="ramips-mt7621"
 GLUON_PRIORITY="${GLUON_PRIORITY:-7}"
+export BROKEN=true
 
 # start of script
 set -eu
